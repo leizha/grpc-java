@@ -28,6 +28,8 @@ def protocVersion = protobufVersion
 
 dependencies {
     implementation "io.grpc:grpc-protobuf:${grpcVersion}"
+    implementation "io.grpc:grpc-services:${grpcVersion}"
+
     implementation "io.grpc:grpc-stub:${grpcVersion}"
     compileOnly "org.apache.tomcat:annotations-api:6.0.53"
 
